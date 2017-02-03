@@ -31,6 +31,7 @@ If you just need the realtime monitor backend, i.e. influx + grafana
 ```
 docker-compose up -d -f realtime-only.yml
 ```
+Set up your gatling config by following the [documentation](http://gatling.io/docs/2.2.3/realtime_monitoring/index.html#gatling)
 
 ### How to stop
 Just stop and keep containers: `docker-compose stop`
