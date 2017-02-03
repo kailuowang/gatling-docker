@@ -8,7 +8,7 @@ To run this demo you need:
 - docker-machine
 - docker-compose
 
-### How to run
+### How to run tests with realtime monitor
 From root directory execute the following:
 
 ```
@@ -25,6 +25,12 @@ Default user and password are: `admin/admin`
 You should be presented with a screen that looks like this:
 
 ![graphic](docs/Sample_Graphic.png)
+
+### How to run realtime monitor
+If you just need the realtime monitor backend, i.e. influx + grafana 
+```
+docker-compose up -d -f realtime-only.yml
+```
 
 ### How to stop
 Just stop and keep containers: `docker-compose stop`
